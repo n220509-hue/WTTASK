@@ -1,0 +1,22 @@
+ body { background-color: #f8f9fa; }
+        .navbar { background-color: #ff4757; }
+        .navbar-brand, .nav-link { color: white !important; }
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .food-card {
+            transition: transform 0.3s;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .food-card:hover { transform: scale(1.05); }
+        .btn-order { background-color: #ff4757; color: white; }
+        .btn-order:hover { background-color: #e84118; color: white; }
+    

@@ -1,0 +1,66 @@
+<html lang="en">
+<body>
+  <div class="container">
+    <div class="task-grid">
+      
+      <!-- Task 1 -->
+      <section class="card">
+        <div class="card-header">
+          <span class="card-title">Define Variables</span>
+          <span class="task-num">Task 1</span>
+        </div>
+        <p>Declare variables using <code>var</code>, <code>let</code>, and <code>const</code>.</p>
+        <div class="interaction-area">
+          <button onclick="runTask1()">Run Variable Demo</button>
+          <div id="output1" class="output">Click button to log to console & show here...</div>
+        </div>
+      </section>
+
+    </div>
+
+    <div class="task-grid">
+
+      <!-- Task 2 -->
+      <section class="card">
+        <div class="card-header">
+          <span class="card-title">Basic Functions</span>
+          <span class="task-num">Task 2</span>
+        </div>
+        <p>Traditional functions and Arrow functions for Math operations.</p>
+        <div class="interaction-area">
+          <div class="btn-group">
+            <button onclick="calculateAdd(10, 5)">Add (10+5)</button>
+            <button class="outline" onclick="calculateSub(20, 8)">Sub (20-8)</button>
+          </div>
+          <div id="output2" class="output">Results will appear here...</div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Task 6 -->
+    <section class="card">
+      <div class="card-header">
+        <span class="card-title">Events & Functions</span>
+        <span class="task-num">Task 6</span>
+      </div>
+
+      <!--
+      <div>
+        <button onclick="mouseover='handleMouseOver()' onmouseout='handleMouseOut()'">
+          Hover over me!
+        </button>
+      </div>
+      -->
+
+      <div class="interaction-area">
+        <form id="task6-form" onsubmit="handleFormSubmit(event)">
+          <input type="text" placeholder="Type something for console log..." required />
+          <button type="submit" style="margin-top: 10px; width: 100%;">Submit Form</button>
+        </form>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
